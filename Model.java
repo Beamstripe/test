@@ -8,11 +8,8 @@ public class Model{
     public int getAge(){
         return this.age;
     }
-    import java.util.Scanner;
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int age = sc.nextInt();
-        setAge(age);
-        System.out.println("The age is "+ getAge());
+        int age = 20;
+        System.out.println("The age is "+ age);
     }
 }
